@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            display: inline;
+            font-size: 2vw;
+            padding: 0 50px;
+        }
+        header{
+            padding: 20px;
+            background-color: black;
+            color: white;
+            border-radius: 100px;
+            height: 30px;
+        }
+        footer
+        {
+            
+            margin: 0;
+            padding: 0;
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 0 70px;
+
+
+        }
+        .navbar input
+        {
+            text-align: center;
+            border: 2px solid black;
+            border-radius: 40px;
+            padding: 5px;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: rgb(43, 255, 0);
+        }
+      
+        .box1
+        {
+            background-color: aqua;
+            color: red;
+            height: 32vh;
+            width: 32vw;
+            display: inline-block;
+            text-align: center;
+        }
+        .box2
+        {
+            background-color: rgb(0, 255, 98);
+            color: red;
+            height: 32vh;
+            width: 32vw;
+            display: inline-block;
+            text-align: center;
+        } .box3
+        {
+            background-color: rgb(0, 60, 255);
+            color: red;
+            height: 32vh;
+            width: 32vw;
+            display: inline-block;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contect</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="enter your search">
+                </div>
+            </ul>
+        </nav>
+        <br>
+        <br>
+<footer>
+        <div class="box1">
+            i am box1
+        </div>
+        <div class="box2">
+            i am box2
+        </div>
+        <div class="box3">
+            i am box3
+        </div>
+        </footer>
+    </header>
+</body>
+</html>
